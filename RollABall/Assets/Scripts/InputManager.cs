@@ -4,6 +4,8 @@ using UnityEngine.Events;
 public class InputManager : MonoBehaviour
 {
     public UnityEvent<Vector2> OnMove = new UnityEvent<Vector2>();
+    public UnityEvent OnJump = new UnityEvent();
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,6 +44,15 @@ public class InputManager : MonoBehaviour
         }
 
         OnMove?.Invoke(inputVector);
+        
+        //adding for jump        
+         if(Input.GetKey(KeyCode.Space)) //Space
+        {
+            OnJump?.Invoke();
+
+        }
+
+        
         
     }
 }
