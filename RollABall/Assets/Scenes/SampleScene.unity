@@ -271,7 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidbody: {fileID: 299541045}
   ballSpeed: 5
-  jumpHeight: 3
+  jumpHeight: 5
 --- !u!114 &299541047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,13 +400,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22426957, y: -0, z: -0, w: 0.9745272}
-  m_LocalPosition: {x: 0, y: 3.77, z: -9.57}
+  m_LocalRotation: {x: 0.3585785, y: -0, z: -0, w: 0.93349963}
+  m_LocalPosition: {x: 0, y: 4.95, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 25.92, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 42.026, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +784,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.56, y: 0, z: -0.19}
-  m_LocalScale: {x: 1, y: 2, z: 9.894535}
+  m_LocalScale: {x: 1, y: 3, z: 9.894535}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -892,7 +892,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.32, y: 0, z: 4.257}
-  m_LocalScale: {x: 1, y: 2, z: 9.39872}
+  m_LocalScale: {x: 1, y: 3, z: 9.39872}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1049,7 +1049,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.32, y: 0, z: -4.64}
-  m_LocalScale: {x: 1, y: 2, z: 9.39872}
+  m_LocalScale: {x: 1, y: 3, z: 9.39872}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1157,7 +1157,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.69, y: 0, z: -0.19}
-  m_LocalScale: {x: 1, y: 2, z: 9.894535}
+  m_LocalScale: {x: 1, y: 3, z: 9.894535}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
